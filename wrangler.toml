@@ -1,0 +1,8 @@
+name = "pan-deploy"
+main = "src/worker.ts"
+compatibility_date = "2024-05-29"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "settings", id = "f3ac969f0e3442208f6fb8195969b4a6" }
+]
